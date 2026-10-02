@@ -1,0 +1,21 @@
+{
+  "id": 773,
+  "title": "Driver Fatigue Trainer Blind Spot Alerts",
+  "repository_slug": "driver-fatigue-trainer-blind-spot-alerts",
+  "category": "Smart Vehicles",
+  "platform": "Arduino Nano 33 BLE",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 24,
+  "connectivity": "CAN bus",
+  "components": [
+    "buzzer",
+    "OLED display",
+    "camera"
+  ],
+  "scope": "Build a smart vehicles prototype that uses buzzer, OLED display, camera to detect objects in blind-spot zones. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Blind Spot Alerts demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/driver-fatigue-trainer-blind-spot-alerts/driver-fatigue-trainer-blind-spot-alerts.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
